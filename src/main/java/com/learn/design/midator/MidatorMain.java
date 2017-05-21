@@ -18,7 +18,7 @@ public class MidatorMain {
         CountryUSA usa = new CountryUSA(securityCouncil);
         CountryIraq iraq = new CountryIraq(securityCouncil);
 
-        securityCouncil.setUsa(usa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  );
+        securityCouncil.setUsa(usa);
         securityCouncil.setIraq(iraq);
 
         securityCouncil.declare("不准研究核武器,否则要发动战争.\n", iraq);

@@ -15,12 +15,12 @@ public class PrototypeMain {
 
         ResumeCloneable cloneable = new ResumeCloneable("suxi");
         cloneable.setPersonalInfo("男", 22);
-        cloneable.setWrokInfo("2016-01-19", "上海南相科技有限公司");
+        cloneable.setWrokInfo("2016-01-19", "科技有限公司-t");
 
         cloneable.display();
 
         ResumeCloneable resumeCloneable = (ResumeCloneable) cloneable.clone();
-        resumeCloneable.setWrokInfo("2016-06-06", "佳依佳信息科技有限公司");
+        resumeCloneable.setWrokInfo("2016-06-06", "科技有限公司");
 
         resumeCloneable.display();
 
